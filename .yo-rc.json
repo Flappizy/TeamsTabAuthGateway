@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Flappizy"
+    },
+    "libraryName": "blazorAuthTab",
+    "generator-version": "3.2.0"
+  }
+}

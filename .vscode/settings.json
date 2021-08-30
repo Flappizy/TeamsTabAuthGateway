@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4aa705b6-ac54-4b33-aa73-cbe194755a01/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.Web/sites/me-opsmanager",
+    "appService.deploySubpath": "."
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "id": "086f8b9e-0412-406f-bcfb-42cace4ffce9",
+  "version": "1.0.0",
+  "packageName": "UnionBankOPSMANAGERRPACKAGE_NAME",
+  "developer": {
+    "name": "UnionBank",
+    "websiteUrl": "https://www.unionbankng.com",
+    "privacyUrl": "https://https://www.unionbankng.com/privacy-notice",
+    "termsOfUseUrl": "https://https://www.unionbankng.com/terms-and-conditions"
+  },
+  "name": {
+    "short": "ME-OPSMANAGERTAB",
+    "full": "ME-OPSMANAGERTAB"
+  },
+  "description": {
+    "short": "Gateway tab",
+    "full": "Gateway tab that gives you access to Union's bank OpsManager Web App"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "UnionBank-image.png"
+  },
+  "accentColor": "#299fff",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://me-opsmanager.azurewebsites.net/blazorauthtab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "me-opsmanager.azurewebsites.net",
+    "meopmanager-unionbankgroup.msappproxy.net"
+  ],
+  "showLoadingIndicator": false
+}
